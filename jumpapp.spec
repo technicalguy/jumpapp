@@ -35,6 +35,10 @@ mkdir -p %{buildroot}%{_unitdir}
 %{_mandir}/man1/*
 
 %changelog
+* Mon Jul 2 2018 Shaun Steenkamp <theguywholikeslinux@gmail.com> - 1.1-1
+- Add -R option to bring the application to the current workspace when rasing,
+  rather than switching workspace
+
 * Mon Jul 2 2018 Michael Kropat <mail@michael.kropat.name> - 1.0-1
 - Add -C option to center mouse
 - Fix stacking order bug with >10 windows
